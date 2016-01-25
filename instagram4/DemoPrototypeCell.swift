@@ -13,6 +13,10 @@ class DemoPrototypeCell: UITableViewCell {
 
     @IBOutlet weak var instaPhoto: UIImageView!
     
+    @IBOutlet weak var userName: UILabel!
+    
+    @IBOutlet weak var userFace: UIImageView!
+    
     override func awakeFromNib()
     {
         super.awakeFromNib()
